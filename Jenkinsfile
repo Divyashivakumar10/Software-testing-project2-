@@ -15,7 +15,7 @@ pipeline {
 
     stage('Delivery Stage') {
       steps {
-        sh 'echo "lon342"'
+        sh 'echo "lon342 Divya Shivakumar"'
       }
     }
 
