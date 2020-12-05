@@ -13,14 +13,14 @@ public class testcase1 extends TestCase{
 	}
 
 	public void testAddCc() throws EmailException {
-		System.out.println("This is test for Cc - lon___");
+		System.out.println("This is test for Cc ID - Lon");
 		testEmail.addCc("a@b.com");
 		assertEquals("a@b.com", testEmail.getCcAddresses().get(0).toString());
 	}
 
 	
     	public void testAddCcMultiple() throws EmailException {
-        	System.out.println("Test to add multiple CC addresses - lon___"); 
+        	System.out.println("Test to add multiple CC addresses ID - Lon"); 
 		String [] testEmails = {"a@b.com", "b@c.com"};
         	testEmail.addCc(testEmails);
         	assertEquals("a@b.com", testEmail.getCcAddresses().get(0).toString());
